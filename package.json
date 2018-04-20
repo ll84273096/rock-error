@@ -1,6 +1,6 @@
 {
   "name": "rock-error",
-  "version": "0.1.0-beta.8",
+  "version": "0.1.0-beta.9",
   "description": "rock-error",
   "keywords": [
     "error"
@@ -19,7 +19,7 @@
     "release": "standard-version",
     "lint": "eslint --ext .js src --fix",
     "test": "mocha",
-    "toPreview": "npm run lint && npm run build && npm run release -- --prerelease beta && git push && npm publish",
+    "toPreview": "npm run lint && npm run build && npm run release -- --prerelease beta && npm publish",
     "toPublish": "npm run build && npm run release -- --prerelease-as patch && npm publish"
   },
   "devDependencies": {
