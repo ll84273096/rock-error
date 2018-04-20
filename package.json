@@ -19,7 +19,7 @@
     "release": "standard-version",
     "lint": "eslint --ext .js src --fix",
     "test": "mocha",
-    "toPreview": "npm run lint && npm run build && npm run release -- --prerelease beta && npm publish",
+    "toPreview": "npm run lint && npm run build && npm run release -- --prerelease beta && git push --follow-tags origin master && npm publish --tag prerelease",
     "toPublish": "npm run build && npm run release -- --prerelease-as patch && npm publish"
   },
   "devDependencies": {
