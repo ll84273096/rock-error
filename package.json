@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "webpack --mode production --config build/webpack.conf.js",
-    "release": "np prerelease --tag=beta",
+    "release": "np patch",
     "lint": "eslint --ext .js src --fix",
     "test": "mocha",
     "toPublish": "npm run lint && npm run build && npm run release -- --prerelease-as patch && npm publish"
