@@ -1,6 +1,6 @@
 {
   "name": "rock-error",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "rock-error",
   "keywords": [
     "error"
@@ -19,8 +19,7 @@
     "release": "standard-version",
     "lint": "eslint --ext .js src --fix",
     "test": "mocha",
-    "toPreview": "npm run lint && npm run build && npm run release -- --prerelease beta && npm publish --tag prerelease",
-    "toPublish": "npm run lint && npm run build && npm run release -- --prerelease-as patch && npm publish --tag prerelease"
+    "toPublish": "npm run lint && npm run build && npm run release -- --prerelease-as patch && npm publish"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
