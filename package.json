@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "webpack --mode production --config build/webpack.conf.js",
-    "release": "standard-version",
+    "release": "np prerelease --tag=beta",
     "lint": "eslint --ext .js src --fix",
     "test": "mocha",
     "toPublish": "npm run lint && npm run build && npm run release -- --prerelease-as patch && npm publish"
@@ -38,6 +38,7 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "mocha": "^5.1.0",
+    "np": "^2.20.1",
     "standard-version": "^4.3.0",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14",
