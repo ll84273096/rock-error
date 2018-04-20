@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0-beta.5"></a>
+# [0.1.0-beta.5](https://github.com/ll84273096/rock-error/compare/v0.1.0-beta.4...v0.1.0-beta.5) (2018-04-20)
+
+
+
 <a name="0.1.0-beta.4"></a>
 # [0.1.0-beta.4](https://github.com/ll84273096/rock-error/compare/v0.1.0-beta.3...v0.1.0-beta.4) (2018-04-20)
 
