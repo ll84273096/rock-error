@@ -22,8 +22,8 @@
     "beforePublish": "npm run lint && npm run build",
     "toFirst": "npm run beforePublish && npm run release -- --first-release && npm publish",
     "toPatch": "npm run beforePublish && npm run release -- --prerelease-as patch && npm publish",
-    "toMinor": "npm run lint && npm run build && npm run release -- --prerelease-as minor && npm publish",
-    "toMajor": "npm run lint && npm run build && npm run release -- --prerelease-as major && npm publish"
+    "toMinor": "npm run beforePublish && npm run release -- --prerelease-as minor && npm publish",
+    "toMajor": "npm run beforePublish && npm run release -- --prerelease-as major && npm publish"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
