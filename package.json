@@ -1,6 +1,6 @@
 {
   "name": "rock-error",
-  "version": "1.0.9",
+  "version": "1.0.10-bate.0",
   "description": "rock-error",
   "keywords": [
     "error"
@@ -21,6 +21,7 @@
     "test": "mocha",
     "beforePublish": "npm run lint && npm run build",
     "toFirst": "npm run beforePublish && npm run release -- --first-release && npm publish",
+    "toPreview": "npm run beforePublish && npm run release -- --prerelease bate && npm publish",
     "toPatch": "npm run beforePublish && npm run release -- --prerelease-as patch && npm publish",
     "toMinor": "npm run beforePublish && npm run release -- --prerelease-as minor && npm publish",
     "toMajor": "npm run beforePublish && npm run release -- --prerelease-as major && npm publish"
