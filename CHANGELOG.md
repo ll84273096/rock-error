@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.10-bate.1"></a>
+## [1.0.10-bate.1](https://github.com/ll84273096/rock-error/compare/v1.0.10-bate.0...v1.0.10-bate.1) (2018-04-26)
+
+
+
 <a name="1.0.10-bate.0"></a>
 ## [1.0.10-bate.0](https://github.com/ll84273096/rock-error/compare/v1.0.9...v1.0.10-bate.0) (2018-04-26)
 
